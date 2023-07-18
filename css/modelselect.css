@@ -1,0 +1,97 @@
+
+.main{
+    margin-top: 61px;
+    margin-left: 0px;
+    display: flex;
+    
+}
+.menu{
+  display: flex;
+}
+.image{
+  width: 95%;
+  object-fit: cover;
+}
+#header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+}
+
+.sidebar {
+  position: flex;
+  top: 61px;
+  left: 0;
+  height: 90vh;
+  width: 350px;
+  background-color: #f1f1f1;
+  padding-top: 100px;
+  padding-left: 50px;
+}
+
+
+/* Track */
+
+
+
+.custom-select {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.custom-select:focus {
+  outline: none;
+  border-color: #66afe9;
+  box-shadow: 0 0 5px rgba(102, 175, 233, 0.6);
+}
+.custom-button {
+  margin-top:10%;
+  margin-left: 20%;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  background-color: #45a049;
+}
+
+.custom-button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.sidebar2img{
+  width: 200px;
+  height: 450px;
+  margin-right: 10px;
+  object-fit: contain;
+}
+#imageContainer {
+  overflow-x: auto; /* Cho phép cuộn ngang khi danh sách quá chiều dài */
+  max-width: 700px; /* Giới hạn chiều ngang của danh sách */
+}
+#imageList {
+  list-style: none; /* Loại bỏ dấu đầu dòng của danh sách */
+  padding: 0; /* Xóa khoảng đệm của danh sách */
+  margin: 0; /* Xóa khoảng cách của danh sách */
+  white-space: nowrap; /* Ngăn các phần tử li xuống dòng */
+}
+
+#imageList li {
+  display: inline-block; /* Hiển thị các phần tử li ngang */
+  margin-right: 10px; /* Khoảng cách ngang giữa các phần tử li */
+}
+.addimg{
+  margin-left: 30px;
+}

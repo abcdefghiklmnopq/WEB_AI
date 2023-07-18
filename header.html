@@ -1,0 +1,63 @@
+<!-- header.html -->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Header</title>
+    <!-- Các thẻ <link> cho các thư viện CSS khác -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/header.css" />
+</head>
+
+<div id="wrapper">
+    <header id="header">
+        <nav class="container">
+            <a href="/" id="logo">
+                <b> Hangers AI </b>
+            </a>
+            <ul id="main-menu">
+                <li><a href="">Products</a>
+                    <ul class="sub-menu">
+                        <li> <b> <a href="products/virtual_dressing_room.html"> <span class="fa-solid fa-tag">
+                                    </span> Virtual dressing room </a>
+                            </b>
+                            <br>
+                            <span>Generate detailed tags for fashion products, in no-time</span>
+                        </li>
+                        <li><b> <a href=""> <span class="fa-solid fa-camera-alt"></span> Visual Search </a>
+                            </b>
+                            <span> Let users find the clothes they're looking for by uploading an image </span>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="">Solution</a>
+                    <ul class="sub-menu">
+                        <li> <b> <a href=""> <span class="fa-solid fa-tag"> </span> Automatic Tagging </a>
+                            </b>
+                            <br>
+                            <span>Generate detailed tags for fashion products, in no-time</span>
+                        </li>
+                        <li><b> <a href=""> <span class="fa-solid fa-camera-alt"></span> Visual Search </a>
+                            </b>
+                            <span> Let users find the clothes they're looking for by uploading an image </span>
+                        </li>
+                        <li><b> <a href=""> <span class="fa-solid fa-tshirt"></span> Product recommendations </a>
+                            </b>
+                            <span> Show products that are similar to the item that a shopper is currently
+                                viewing</span>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="">Company</a></li>
+                <li><a href="">Partners </a></li>
+                <li><a href="">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+</div>
+
+<script>
+    $(document.body).ready(function () {
+        $('.sub-menu').parent('li').addClass('has-child');
+    });
+</script>
